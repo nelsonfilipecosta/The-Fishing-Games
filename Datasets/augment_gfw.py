@@ -33,6 +33,7 @@ print('Compiling datasets...')
 
 data = pd.concat(new_data)
 
+# reorder dataset columns
 data = data[['time',
              'latitude',
              'longitude',
