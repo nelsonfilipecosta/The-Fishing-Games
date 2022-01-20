@@ -47,8 +47,6 @@ for i in years:
     #filepath = pathlib.Path('era5/era5_%s.csv' %i)
     #new_data.to_csv(filepath)
 
-    print('Done!')
-
 print('Compiling years...')
 
 data = pd.concat(new_data)
