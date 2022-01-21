@@ -48,7 +48,7 @@ data = data[['time',
              'significant_height_of_combined_wind_waves_and_swell',
              'is_fishing']]
 
-filepath = pathlib.Path('augmented_data/augmented_data.csv')
+filepath = pathlib.Path('data/augmented_data.csv')
 data.to_csv(filepath, index=False)
 
 print('Done!')
