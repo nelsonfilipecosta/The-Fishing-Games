@@ -12,6 +12,8 @@ echo "Verifying folder 'data'..."
 echo "Phase 1 -  Download ERA5 Dataset"
 python download_era5.py
 
+mv era5_* era5
+
 echo "Phase 2 -  Convert ERA5 Dataset to CSV"
 python convert_era5.py
 
