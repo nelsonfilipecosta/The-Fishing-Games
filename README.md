@@ -36,3 +36,13 @@ Both datasets are then cleaned and merged based on time, latitude and longitude 
 - period_corresponding_to_maximum_individual_wave_height
 - significant_height_of_combined_wind_waves_and_swell
 - is_fishing
+
+#### Code
+
+Simply run the following command 
+
+```
+./generate_data.sh
+```
+
+to run the whole process.
