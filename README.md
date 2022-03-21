@@ -2,10 +2,13 @@
 
 !!! UNFINISHED PROJECT !!!
 
-## Dataset
+## Datasets
 
 Code used to download and convert from netCDF4 to CSV the following hourly weather variables
 
+- time
+- latitude
+- longitude
 - 10m_u_component_of_wind
 - 10m_v_component_of_wind
 - maximum_individual_wave_height
@@ -16,7 +19,7 @@ Code used to download and convert from netCDF4 to CSV the following hourly weath
 
 from the [ERA5](https://cds.climate.copernicus.eu/cdsapp#!/dataset/reanalysis-era5-single-levels?tab=overview) dataset between the years 2012 and 2019, as well as the whole anonymized AIS training data from the [Global Fishing Watch](https://globalfishingwatch.org/data-download/datasets/public-training-data-v1) dataset between the same period of time.
 
-Both datasets are then cleaned and prepared to be merged based on time, latitude and longitude to create a final augmented dataset on which to train fishing route predictive machine learning models.
+Both datasets are then cleaned and merged based on time, latitude and longitude to create a final augmented dataset on which to train machine learning models to predict fishing patterns based on weather information.
 
 ### Dataset Schema
 
