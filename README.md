@@ -37,7 +37,7 @@ Both datasets are then cleaned and merged based on time, latitude and longitude 
 - significant_height_of_combined_wind_waves_and_swell
 - is_fishing
 
-#### Code
+### Code
 
 Simply run the following command 
 
