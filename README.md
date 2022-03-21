@@ -19,7 +19,7 @@ Code used to download and convert from netCDF4 to CSV the following hourly weath
 
 from the [ERA5](https://cds.climate.copernicus.eu/cdsapp#!/dataset/reanalysis-era5-single-levels?tab=overview) dataset between the years 2012 and 2019, as well as the whole anonymized AIS training data from the [Global Fishing Watch](https://globalfishingwatch.org/data-download/datasets/public-training-data-v1) dataset between the same period of time.
 
-Both datasets are then cleaned and merged based on time, latitude and longitude to create a final augmented dataset on which to train machine learning models to predict fishing patterns based on weather information.
+Both datasets are then cleaned and merged based on time, latitude and longitude to create a final augmented dataset on which to train machine learning models to predict fishing activity patterns based on weather information.
 
 ### Dataset Schema
 
